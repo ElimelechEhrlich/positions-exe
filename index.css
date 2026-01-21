@@ -3,6 +3,7 @@ body {
 }
 
 #header {
+    position: relative;
     /* position: relative; */
     height: 77.23px;
     width: 100%;
@@ -11,18 +12,18 @@ body {
 }
 
 #header_inner {
-    position: relative;
-    /* top: 50%; */
-    /* left: 50%; */
-    height: 77.23px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* height: 77.23px; */
     max-width: 1280px;
     width: 90%;
     align-items: center;
     /* padding: 0; */
     /* display: block; */
-    margin: o auto;
+    /* margin: o auto; */
     background-color: black;
-    /* transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
     /* max-width: 1398px; */
     padding-right: 16px;
     padding-left: 16px;
