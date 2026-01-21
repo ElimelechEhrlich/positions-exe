@@ -8,6 +8,7 @@ body {
     height: 77.23px;
     width: 100%;
     background: black;
+    box-sizing: border-box;
     /* display: block; */
 }
 
@@ -16,8 +17,8 @@ body {
     top: 50%;
     left: 50%;
     /* height: 77.23px; */
-    max-width: 1280px;
-    width: 90%;
+    max-width: 1398px;
+    width: 100%;
     align-items: center;
     /* padding: 0; */
     /* display: block; */
@@ -79,4 +80,65 @@ body {
     height: 20px;
     cursor: pointer;
     transform: translate(-50%, -50%);
+}
+
+#nav {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#nav {
+    position: relative;
+    top: 24px;
+    left: 50.2%;
+    height: 45px;
+    width: 100vw;
+    border-bottom: .5px solid rgb(231, 218, 218);
+}
+
+#nav_inner {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    max-width: 1398px;
+    width: 100%;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+#nav_inner a {
+    position: relative;
+    /* height: 77.23px; */
+
+    /* padding: 0; */
+    /* display: block; */
+    /* margin: o auto; */
+    /* background-color: black; */
+    /* max-width: 1398px; */
+    text-align: center;
+    display: inline-block;
+    width: 7%;
+    padding: 8px 0;
+    /* height: 36px; */
+    text-decoration: none;
+    color: gray;
+    font-size: larger;
+    /* border: 2px solid rgb(226, 221, 221); */
+    /* cursor: pointer; */
+
+
+
+    /* /* position: absolute; */
+    /* top: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+#nav a:hover {
+    color: rgb(197, 29, 29);
+    background-color: rgb(230, 219, 219);
+    border-radius:10px ;
 }
