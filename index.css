@@ -1,0 +1,81 @@
+body {
+    direction: rtl;
+}
+
+#header {
+    /* position: relative; */
+    height: 77.23px;
+    width: 100%;
+    background: black;
+    /* display: block; */
+}
+
+#header_inner {
+    position: relative;
+    /* top: 50%; */
+    /* left: 50%; */
+    height: 77.23px;
+    max-width: 1280px;
+    width: 90%;
+    align-items: center;
+    /* padding: 0; */
+    /* display: block; */
+    margin: o auto;
+    background-color: black;
+    /* transform: translate(-50%, -50%); */
+    /* max-width: 1398px; */
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+#sun_img {
+
+    position: absolute;
+    top: 50%;
+    fill: white;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 53.5%;
+    width: 73.91px;
+    height: 73.23px;
+    transform: translate(-50%, -50%);
+}
+
+#contact {
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 84.5%;
+    width: 104.69px;
+    height: 36px;
+    background-color: #C8211E;
+    transform: translate(-50%, -50%);
+    border-radius: calc(-2px + 0.5rem);
+}
+
+#contect_text {
+    position: absolute;
+    top: 47%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+#img_mail {
+    position: absolute;
+    top: 50%;
+    fill: white;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
